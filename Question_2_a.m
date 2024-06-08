@@ -1,4 +1,4 @@
-img = imread('autumn.tif');
+img = imread('football.jpg');
 brighter_img = img + 50;
 darker_img = img - 50;
 

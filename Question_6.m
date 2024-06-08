@@ -1,4 +1,4 @@
-img = imread('autumn.tif');
+img = imread('office_2.jpg');
 salt_pepper_img = imnoise(img, 'salt & pepper', 0.02);
 gaussian_img = imnoise(img, 'gaussian');
 filtered_sp_3x3 = imfilter(salt_pepper_img, ones(3, 3) / 9);

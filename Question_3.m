@@ -1,4 +1,4 @@
-img = imread('autumn.tif');
+img = imread('office_4.jpg');
 equalized_img = histeq(img);
 
 figure,

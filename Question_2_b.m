@@ -1,4 +1,4 @@
-img = imread('autumn.tif');
+img = imread('football.jpg');
 
 contrast_img = imadjust(img, stretchlim(img), []);
 
